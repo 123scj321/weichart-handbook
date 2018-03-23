@@ -1,0 +1,3 @@
+<wxs src="wxsModule.wxs" module="wxsModule">
+</wxs>
+<view>{{wxsModule.msg}}</view>

@@ -1,0 +1,11 @@
+var foo="这是一个来自wxsmodule的文件";
+var bar=function(d){
+  return d;
+}
+module.exports={
+  FOO:foo,
+  bar:bar
+};
+module.exports.msg="一些信息数据";
+var tools=require("../wxs/comm.wxs");
+console.log(tools.foo);

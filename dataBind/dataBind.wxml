@@ -1,0 +1,19 @@
+<view>数据绑定案例</view>
+<view>{{message}}</view>
+<view wx:for="{{id}}">
+<view id="item-{{item}}">this is {{index}} of {{item}}</view>
+</view>
+<view wx:if="{{condition}}">判断事件</view>
+<checkbox >事件判断checked='{{true}}'</checkbox>
+<view hidden="{{flag?false:true}}">hidden or show</view>
+<view>{{a+b}}+{{c}}={{a+b+c}}</view>
+<view wx:if="{{length>5}}">{{length}}>5?show:false</view>
+<view>{{"hello"+name}}</view>
+<view>{{object.key}}{{array[0]}}</view>
+<view wx:for-items="{{[zero,1,2,3,4]}}">{{item}}</view>
+<!--查资料  -->
+<template is="objectCombine" data="{{for: a, bar: b}}"></template>
+<template is="objectCombine" data="{{...obj1, ...obj2, e: 5}}"></template>
+<view wx:for="{{[1,2,3,4]}}">
+{{item}}   有空格会添加，
+</view>

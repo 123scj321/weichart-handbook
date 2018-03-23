@@ -1,0 +1,4 @@
+<import src="a.wxml"/>
+<template name="B">
+  this is B template
+</template>

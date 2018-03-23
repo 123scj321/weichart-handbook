@@ -1,0 +1,7 @@
+<import src="template.wxml"/>
+<template is="item" data="{{text:'now'}}"/>
+<import src="b.wxml"/>
+<template is="A"/>
+<!--无法输出，因为C import B，B import A，在C中可以使用B定义的template，在B中可以使用A定义的template，但是C不能使用A定义的template  -->
+<template is="B"/>
+<import src="a.wxml"/>

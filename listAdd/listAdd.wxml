@@ -1,0 +1,25 @@
+<view>微信小程序 列表渲染</view>
+<view wx:for="{{array}}">{{index}}:{{item.message}}</view>
+<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+  {{idx}}:{{itemName.message}}
+</view>
+<view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
+  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j">
+    <text wx:if="{{i<=j}}">
+      {{i}}*{{j}}={{i*j}}   
+    </text>
+  </view>
+</view>
+<block wx:for="{{[1,2,3,4]}}">
+  <view>{{index}}:{{item}}</view>
+</block>
+<switch wx:for="objectArray" wx:key="index" style="display:block">
+  {{item.id}}
+</switch>
+<button bindtap="switch">switch</button>
+<button bindtap="addToFront">添加到前面</button>
+<switch wx:for="{{numberArray}}" wx:key="*this" style="display:block">{{item}}</switch>
+<button bindtap="addNumberToFront">Add to the front</button>
+<view wx:for="array">
+{{item}}
+</view>

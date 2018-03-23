@@ -1,0 +1,14 @@
+<view>{{mesage}}</view>
+<view wx:for-items="{{array}}">第{{index}}个元素是 {{item}}</view>
+<view wx:if="{{view == 'WEBVIEW'}}">WEBVIEW</view>
+<view wx:elif="{{view == 'APP'}}">APP</view>
+<view wx:else="{{view == 'MINE'}}">MINE</view>
+<template name="staffName">
+  <view>
+    FirstName:{{firstName}},LastName:{{lastName}}
+  </view>
+</template>
+<template is="staffName" data="{{...staffA}}"></template>
+<template is="staffName" data="{{...staffB}}"></template>
+<template is="staffName" data="{{...staffC}}"></template>
+<view bindtap='add'>{{count}}</view>

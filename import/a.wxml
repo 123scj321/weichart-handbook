@@ -1,0 +1,3 @@
+<template name="A">
+  <text>this is A template</text>
+</template>

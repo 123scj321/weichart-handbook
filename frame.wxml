@@ -1,0 +1,13 @@
+<view class="frame-container">
+框架案例
+</view>
+<button bindtap='wxml' type="primary">wxml</button>
+<button bindtap='dataBind' type="warn">数据绑定</button>
+<button bindtap='listAdd' type="default">列表渲染</button>
+<button bindtap='elseIf' type="default">条件渲染</button>
+<button bindtap="template" type="warn">模板</button>
+<button bindtap="event" type="primary">事件</button>
+<button bindtap="import" type="default">组件引用</button>
+<button bindtap="wxs" type="primary">wxs</button>
+WeiXin Script）是小程序的一套脚本语言，结合 WXML，可以构建出页面的结构
+<button bindtap="wxsModule">wxs模板</button>

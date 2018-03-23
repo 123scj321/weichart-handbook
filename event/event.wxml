@@ -1,0 +1,10 @@
+<view id="tapTest" data-hi="wechat" bindtap="tapname">click me!!</view>
+<view id="outter" bindtap="handleTap1">
+  outer view
+  <view id="middle" catchtap="handleTap2">
+    middle view
+    <view id="inner" bindTap="handleTap">
+      inner view
+    </view>
+  </view>
+</view>

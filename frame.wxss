@@ -1,0 +1,8 @@
+/* pages/main/frame/frame.wxss */
+.frame-container{
+margin-top:10px;
+display: block;
+width:100%;
+border-bottom:1px solid #333;
+padding-left:10px;
+}
