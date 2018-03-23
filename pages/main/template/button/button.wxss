@@ -1,0 +1,7 @@
+/* pages/main/template/button/button.wxss */
+.button-hover{
+  background:#f00;
+}
+.other-button-hover{
+  background:#0ff;
+}

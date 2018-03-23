@@ -1,0 +1,32 @@
+
+<view class="section">
+  <input placeholder='这是一个自动获取焦距的input' auto-focus='true'>  </input>
+</view>
+<view class="section">
+  <input placeholder='只有这个在按钮点击的时候才聚焦' focus></input>
+  <view class="btn-area">
+    <button bindtap="bindButtonTap">是的输入框获取焦点</button> 
+  </view>
+</view>
+<view class="section">
+  <input maxlength='10' placeholder='最大输入长度是10'></input>
+</view>
+<view class="section">
+  <view class="section_title">你输入的是：{{inputValue}}</view>
+  <input bindinput='bindKeyInput' placeholder='输入同步到view中'></input>
+</view>
+<view class="section">
+  <input bindinput="bindReplaceInput" placeholder='连续的两个1会变成2'></input>
+</view>
+<view class="section">
+  <input password type='number'></input>
+</view>
+<view class="section">
+  <input password type='text'></input>
+</view>
+<view class="section">
+  <input type='digit' placeholder='带小数点的数字键盘'></input>
+</view>
+<view class="section">
+  <input placeholder-style='color:red' placeholder=' 占位符字体是红色的 '></input>
+</view>

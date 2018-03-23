@@ -1,0 +1,27 @@
+<view style="border-bottom:1px solid #333">视图容器view</view>
+<button bindtap='view' type='primary'>view视图</button>
+<button bindtap='scrollView' type="default">可滚动视图区域</button>
+<button bindtap='swiper' type="warn">滑块视图容器</button>
+<button bindtap='movableArea' type="primary">可以动的视图容器</button>
+<button bindtap='coverView' type="default">覆盖在原生组件之上的文本视图</button>
+<view style="border-bottom:1px solid #333">基本内容</view>
+<button bindtap="icon" type='primary'>图标组件</button>
+<button bindtap="text" type='default'>文本组件</button>
+<button bindtap="progress" type='warn'>进度条组件</button>
+<button bindtap="button" type='primary'>按钮组件</button>
+<button bindtap="checkBox" type="default">多项选择器</button>
+<button bindtap="form" type="primary">表单</button>
+<button bindtap="input" type='warn'>input表单元素</button>
+<button bindtap="label" type='warn'>label表单元素</button>
+<button bindtap="picker" type='warn'>picker表单元素</button>
+<button bindtap="pickerView" type='default'>picker-view表单元素</button>
+<button bindtap="radio" type='warn'>radio表单元素</button>
+<button bindtap="slider" type='primary'>slider表单元素</button>
+<button bindtap="switch" type="default">switch表单元素</button>
+<button bindtap="textarea" type="primary">textarea表单</button>
+<button bindtap="navigator" type="primary">navigator表单</button>
+<button bindtap="audio" type='warn'>audio表单元素</button>
+<button bindtap="image" type='warn'>image表单元素</button>
+<button bindtap="video" type='warn'>video表单元素</button>
+<button bindtap="map" type='warn'>map表单元素</button>
+<button bindtap="canvas" type='warn'>canvas表单元素&&camera照相</button>

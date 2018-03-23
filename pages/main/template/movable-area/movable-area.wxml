@@ -1,0 +1,14 @@
+<view class="section">
+  <view class="section_title">movable-view 区域小于movable-area</view>
+  <movable-area style="height:200px;width:200px;background:red">
+    <movable-view style="height:200px;width:50px;background:blue;" x='{{x}}' y="{{y}}" direction="all">
+    </movable-view>
+  </movable-area>
+  <view class="btn-area">
+    <button size="mini" bindTap="tap">点击我移动到(30px,30px),</button>
+  </view>
+  <view class="section_title">movable-view区域大于movable-view</view>
+  <movable-area style="height:100px;width:100px;bqckground:red;" direction="all">
+    <movable-view style='height:200px;width:200px;background:blue;'></movable-view>
+  </movable-area>
+</view>

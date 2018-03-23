@@ -1,0 +1,8 @@
+
+<view>这是微信小程序开发文档</view>
+<view class='container'>
+  <view bindtap='frame'>框架</view>
+  <view bindtap="template">组件</view>
+  <view bindtap="api">API</view>
+  <view bindtap="tool">工具</view>
+</view>

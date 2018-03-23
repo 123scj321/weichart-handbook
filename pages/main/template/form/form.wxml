@@ -1,0 +1,32 @@
+<form bindsubmit='formSubmit' bindreset="formReset">
+  <view class="section section_gap">
+    <view class="section_title">switch 表单元素</view>
+    <switch name="switch"></switch>
+  </view>
+  <view class="section section_gap">
+    <view class="section_title"> slider表单元素</view>
+    <slider name='slider' show-value value='20'></slider>
+  </view>
+  <view class="section">
+    <view class="section_title">input表单元素</view>
+    <input placeholder="请在这里输入" name="input"></input>
+  </view>
+  <view class="section section_gap">
+    <view class="section_title">radio单选框</view>
+      <radio-group name="radio-group">
+      <label><radio value="radio1">单选框1</radio></label>
+      <label><radio value="radio2">单选框2</radio></label>
+      </radio-group>
+  </view>
+  <view class="section section_gap">
+    <view class="section_title">checkbox复选框</view>
+    <checkbox-group name="checkbox">
+      <label><checkbox value="checkbox1">复选框1</checkbox></label>
+      <label><checkbox value="checkbox2">复选框2</checkbox></label>
+    </checkbox-group>
+  </view>
+  <view class="btn-area">
+    <button form-type='submit'>提交</button>
+    <button form-type='reset'>撤销</button>
+  </view>
+</form>

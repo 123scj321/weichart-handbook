@@ -1,0 +1,11 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay='{{autoplay}}' interval="{{interval}}" duration='{{duration}}'>
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="100%" height="150"></image>
+    </swiper-item>
+  </block>
+</swiper>
+<button bindtap='changeIndicatorDots'>小圆点</button>
+<button bindtap="changeAutoplay">自动播放</button>
+<slider bindchange='intervalChange' show-value min="1000" max="10000">间隔时间</slider>
+<slider bindchange='durationChange' show-value min="1000" max="10000">一次轮播时间</slider>

@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/main/template/template",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/main/main",
+    "pages/main/tool/tool",
+    "pages/main/API/API",
+    "pages/main/frame/frame",
+    "pages/main/frame/wxml/wxml",
+    "pages/main/frame/dataBind/dataBind",
+    "pages/main/frame/elseIf/elseIf",
+    "pages/main/frame/listAdd/listAdd",
+    "pages/main/frame/template/template",
+    "pages/main/frame/event/event",
+    "pages/main/frame/import/import",
+    "pages/main/frame/wxs/wxs",
+    "pages/main/frame/wxsModule/wxsModule",
+    "pages/main/template/view/view",
+    "pages/main/template/scrollView/scrollView",
+    "pages/main/template/swiper/swiper",
+    "pages/main/template/movable-area/movable-area",
+    "pages/main/template/coverVIew/coverView",
+    "pages/main/template/icon/icon",
+    "pages/main/template/text/text",
+    "pages/main/template/progress/progress",
+    "pages/main/template/button/button",
+    "pages/main/template/checkBox/checkBox",
+    "pages/main/template/form/form",
+    "pages/main/template/input/input",
+    "pages/main/template/label/label",
+    "pages/main/template/picker/picker",
+    "pages/main/template/picker-view/picker-view",
+    "pages/main/template/radio/radio",
+    "pages/main/template/slider/slider",
+    "pages/main/template/switch/switch",
+    "pages/main/template/textarea/textarea",
+    "pages/main/template/audio/audio",
+    "pages/main/template/image/image",
+    "pages/main/template/video/video",
+    "pages/main/template/camera/camera",
+    "pages/main/template/map/map",
+    "pages/main/template/canvas/canvas",
+    "pages/main/template/navigator/navigator"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Demo",
+    "navigationBarTextStyle": "black"
+  },
+  "taBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 1000,
+    "downloadFile": 1000
+  },
+  "debug": true
+}

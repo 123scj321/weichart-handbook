@@ -1,0 +1,22 @@
+<view class="section">
+  <view class="section_title">横向滚动</view>
+  <scroll-view scroll-y style="height:200px;" bindscrolltoupper='upper' bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view id="green" class="scroll-view-item bc_green"></view>
+    <view id="red" class="scroll-view-item bc_red"></view>
+    <view id="yellow" class="scroll-view-item bc_yellow"></view>
+    <view id="pink" class="scroll-view-item bc_pink"></view>
+  </scroll-view>
+  <view class="btn-area">
+    <button size="mini" bindtap="tap">点击我从横向进入视图</button>
+    <button size="mini" bindtap="tapMove">点击我进行滚动         </button>
+  </view>
+</view>
+<view class="section_title">纵向滚动</view>
+<scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+<!--  display: inline-block-->
+  <view style="background: red; width: 200px; height: 100px; display: inline-block" ></view>
+  <view style="background: green; width: 200px; height: 100px; display: inline-block"></view>
+  <view style="background: blue; width: 200px; height: 100px; display: inline-block"></view>
+  <view style="background: yellow; width: 200px; height: 100px; display: inline-block"></view>
+</scroll-view>
+

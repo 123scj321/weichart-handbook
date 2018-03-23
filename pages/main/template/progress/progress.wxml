@@ -1,0 +1,4 @@
+<progress percent="{{first}}" show-info></progress>
+<progress percent="{{second}}" stroke-width='20'></progress>
+<progress percent="{{third}}" color="pink"></progress>
+<progress percent="{{last}}" active="true"></progress>

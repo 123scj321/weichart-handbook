@@ -1,0 +1,24 @@
+<view class="section section_gap">
+  <text class="section_title">设置left/right icon</text>
+  <view class="body-view">
+  <slider bindchange='slider1change' left-icon="cancel" right-iocn="success_no_circle"></slider>
+  </view>
+</view>
+<view class="section section_gap">
+  <text class="section_title">设置step</text>
+  <view class="body-view">
+  <slider bindchange='slider2change' step='5'></slider>
+  </view>
+</view>
+<view class="section section_gap">
+  <text class="section_title">设置当前value</text>
+  <view class="body-view">
+  <slider bindchange='slider3change' left-icon="cancel" right-iocn="success_no_circle"></slider>
+  </view>
+</view>
+<view class="section section_gap">
+  <text class="section_title">设置最大最小值</text>
+  <view class="body-view">
+  <slider bindchange='slider1change' min='20' max='200' show-value></slider>
+  </view>
+</view>

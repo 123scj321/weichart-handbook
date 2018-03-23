@@ -1,0 +1,14 @@
+view{
+  width:95%;
+  height: 50px;
+  color:black;
+  align-items: center;
+  text-align: center;
+  display:block;
+  line-height: 50px;
+  flex: 1;
+  border: 1px solid #333; 
+}
+.container{
+ width:95%; 
+}
